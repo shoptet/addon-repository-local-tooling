@@ -11,9 +11,17 @@ C(Local files) -- Static served files --> B
 ```
 
 ## Install
-Node >= 18 prerequisited\
-Install global using yarn:\
-`yarn global add git+https://github.com/shoptet/shoptet-bender.git`
+Node >= 18 prerequisited
+Install global using:
+### npm
+```
+npm install -g git+https://github.com/shoptet/shoptet-bender.git
+```
+
+### Yarn 1
+```
+yarn global add git+https://github.com/shoptet/shoptet-bender.git
+```
 
 ℹ️ On Windows platform, you may need to add Yarn binary to your path:
 - copy the output of the `yarn global bin` command, e.g. *C:\Users\YOUR_PROFILE\AppData\Local\Yarn\bin*
